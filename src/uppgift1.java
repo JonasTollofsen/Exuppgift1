@@ -3,9 +3,8 @@ import java.util.Scanner; //Scanner klassen importeras för att kunna skapa en n
 public class uppgift1 { // Början av klassen main
 
     public static void main(String[] args){ // Början av metoden main
-
         //nedan deklareras alla variabler som används
-
+//test test test
         Scanner input = new Scanner(System.in); //Scanner object to gather input from user
         double kopsumma_input; //Initial purchase amount as a double, which later gets rounded to the closest integer with the Math.round method
         int betalning = 0; // The payment amount received from the customer
