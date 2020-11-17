@@ -4,7 +4,6 @@ public class uppgift1 { // Början av klassen main
 
     public static void main(String[] args){ // Början av metoden main
         //nedan deklareras alla variabler som används
-//test test test
         Scanner input = new Scanner(System.in); //Scanner object to gather input from user
         double kopsumma_input; //Initial purchase amount as a double, which later gets rounded to the closest integer with the Math.round method
         int betalning = 0; // The payment amount received from the customer
@@ -31,7 +30,7 @@ public class uppgift1 { // Början av klassen main
 
         restvarde = betalning - kopsumma; //Beräkning av restvärde som används inom for-loopen nedan
 
-        if (restvarde >0){
+        if (restvarde >0){ //
             System.out.printf("%nKunden får tillbaka:%n");
             for (int valor : allaValorer) {
                 tempvarde = restvarde / valor;
